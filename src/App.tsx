@@ -39,17 +39,22 @@ export default function App() {
           </header>
           {/* Banner */}
           <div className="banner">
+            <img
+              src="public/Banner/banner-1.jpg"
+              alt=""
+              className="banner-images"
+            />
             {/* Images */}
-            <div className="slides fade">
-              {/* <img
+            {/* <div className="slides fade">
+              <img
                 className="banner-images"
                 src="public/Banner/banner-1.jpg"
                 alt="Banner-1"
                 style={{ width: "60%" }}
-              /> */}
+              />
               <img src="public/Banner/banner-1.jpg" alt="" />
             </div>
-            {/* <div className="slides fade">
+            <div className="slides fade">
               <img
                 className="banner-images"
                 src="public/Banner/banner-2.jpg"
@@ -82,8 +87,8 @@ export default function App() {
               />
             </div> */}
             {/* Next and previous buttons */}
-            <a className="prev">❮</a>
-            <a className="next">❯</a>
+            {/* <a className="prev">❮</a>
+            <a className="next">❯</a> */}
           </div>
           <br />
           {/* Dots */}
@@ -137,6 +142,364 @@ export default function App() {
                   <div className="product">
                     <div id="product_items" className="grid__row">
                       Product item
+                      <div className="grid__column-2-4">
+                        <a className="product-item" href="#">
+                          <div
+                            className="product-item_img"
+                            style={{
+                              backgroundImage:
+                                "url(/public/Product/Thietbidientu/iphone6.jpg)",
+                            }}
+                          />
+                          <h4 className="product-item_name">
+                            Iphone 12 Pro Max
+                          </h4>
+                          <div className="product-item_price">30.000.000đ</div>
+                          <div className="product-item_action">
+                            <span className="product-item_like">
+                              <i className="far fa-heart" />
+                            </span>
+                            <div className="product-item_rating">
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="fas fa-star" />
+                            </div>
+                            <span className="product-item_sold">50 đã bán</span>
+                          </div>
+                          <div className="product-item_origin">
+                            <span className="product-item_brand">Apple</span>
+                            <span className="product-item_place">Hà Nội</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="grid__column-2-4">
+                        <a className="product-item" href="#">
+                          <div
+                            className="product-item_img"
+                            style={{
+                              backgroundImage:
+                                "url(/public/Product/Thietbidientu/iphone6.jpg)",
+                            }}
+                          />
+                          <h4 className="product-item_name">
+                            Iphone 12 Pro Max
+                          </h4>
+                          <div className="product-item_price">30.000.000đ</div>
+                          <div className="product-item_action">
+                            <span className="product-item_like">
+                              <i className="far fa-heart" />
+                            </span>
+                            <div className="product-item_rating">
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="fas fa-star" />
+                            </div>
+                            <span className="product-item_sold">50 đã bán</span>
+                          </div>
+                          <div className="product-item_origin">
+                            <span className="product-item_brand">Apple</span>
+                            <span className="product-item_place">Hà Nội</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="grid__column-2-4">
+                        <a className="product-item" href="#">
+                          <div
+                            className="product-item_img"
+                            style={{
+                              backgroundImage:
+                                "url(/public/Product/Thietbidientu/iphone6.jpg)",
+                            }}
+                          />
+                          <h4 className="product-item_name">
+                            Iphone 12 Pro Max
+                          </h4>
+                          <div className="product-item_price">30.000.000đ</div>
+                          <div className="product-item_action">
+                            <span className="product-item_like">
+                              <i className="far fa-heart" />
+                            </span>
+                            <div className="product-item_rating">
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="fas fa-star" />
+                            </div>
+                            <span className="product-item_sold">50 đã bán</span>
+                          </div>
+                          <div className="product-item_origin">
+                            <span className="product-item_brand">Apple</span>
+                            <span className="product-item_place">Hà Nội</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="grid__column-2-4">
+                        <a className="product-item" href="#">
+                          <div
+                            className="product-item_img"
+                            style={{
+                              backgroundImage:
+                                "url(/public/Product/Thietbidientu/iphone6.jpg)",
+                            }}
+                          />
+                          <h4 className="product-item_name">
+                            Iphone 12 Pro Max
+                          </h4>
+                          <div className="product-item_price">30.000.000đ</div>
+                          <div className="product-item_action">
+                            <span className="product-item_like">
+                              <i className="far fa-heart" />
+                            </span>
+                            <div className="product-item_rating">
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="fas fa-star" />
+                            </div>
+                            <span className="product-item_sold">50 đã bán</span>
+                          </div>
+                          <div className="product-item_origin">
+                            <span className="product-item_brand">Apple</span>
+                            <span className="product-item_place">Hà Nội</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div id="product_items" className="grid__row">
+                      Product item
+                      <div className="grid__column-2-4">
+                        <a className="product-item" href="#">
+                          <div
+                            className="product-item_img"
+                            style={{
+                              backgroundImage:
+                                "url(/public/Product/Thietbidientu/iphone6.jpg)",
+                            }}
+                          />
+                          <h4 className="product-item_name">
+                            Iphone 12 Pro Max
+                          </h4>
+                          <div className="product-item_price">30.000.000đ</div>
+                          <div className="product-item_action">
+                            <span className="product-item_like">
+                              <i className="far fa-heart" />
+                            </span>
+                            <div className="product-item_rating">
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="fas fa-star" />
+                            </div>
+                            <span className="product-item_sold">50 đã bán</span>
+                          </div>
+                          <div className="product-item_origin">
+                            <span className="product-item_brand">Apple</span>
+                            <span className="product-item_place">Hà Nội</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="grid__column-2-4">
+                        <a className="product-item" href="#">
+                          <div
+                            className="product-item_img"
+                            style={{
+                              backgroundImage:
+                                "url(/public/Product/Thietbidientu/iphone6.jpg)",
+                            }}
+                          />
+                          <h4 className="product-item_name">
+                            Iphone 12 Pro Max
+                          </h4>
+                          <div className="product-item_price">30.000.000đ</div>
+                          <div className="product-item_action">
+                            <span className="product-item_like">
+                              <i className="far fa-heart" />
+                            </span>
+                            <div className="product-item_rating">
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="fas fa-star" />
+                            </div>
+                            <span className="product-item_sold">50 đã bán</span>
+                          </div>
+                          <div className="product-item_origin">
+                            <span className="product-item_brand">Apple</span>
+                            <span className="product-item_place">Hà Nội</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="grid__column-2-4">
+                        <a className="product-item" href="#">
+                          <div
+                            className="product-item_img"
+                            style={{
+                              backgroundImage:
+                                "url(/public/Product/Thietbidientu/iphone6.jpg)",
+                            }}
+                          />
+                          <h4 className="product-item_name">
+                            Iphone 12 Pro Max
+                          </h4>
+                          <div className="product-item_price">30.000.000đ</div>
+                          <div className="product-item_action">
+                            <span className="product-item_like">
+                              <i className="far fa-heart" />
+                            </span>
+                            <div className="product-item_rating">
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="fas fa-star" />
+                            </div>
+                            <span className="product-item_sold">50 đã bán</span>
+                          </div>
+                          <div className="product-item_origin">
+                            <span className="product-item_brand">Apple</span>
+                            <span className="product-item_place">Hà Nội</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="grid__column-2-4">
+                        <a className="product-item" href="#">
+                          <div
+                            className="product-item_img"
+                            style={{
+                              backgroundImage:
+                                "url(/public/Product/Thietbidientu/iphone6.jpg)",
+                            }}
+                          />
+                          <h4 className="product-item_name">
+                            Iphone 12 Pro Max
+                          </h4>
+                          <div className="product-item_price">30.000.000đ</div>
+                          <div className="product-item_action">
+                            <span className="product-item_like">
+                              <i className="far fa-heart" />
+                            </span>
+                            <div className="product-item_rating">
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="fas fa-star" />
+                            </div>
+                            <span className="product-item_sold">50 đã bán</span>
+                          </div>
+                          <div className="product-item_origin">
+                            <span className="product-item_brand">Apple</span>
+                            <span className="product-item_place">Hà Nội</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div id="product_items" className="grid__row">
+                      Product item
+                      <div className="grid__column-2-4">
+                        <a className="product-item" href="#">
+                          <div
+                            className="product-item_img"
+                            style={{
+                              backgroundImage:
+                                "url(/public/Product/Thietbidientu/iphone6.jpg)",
+                            }}
+                          />
+                          <h4 className="product-item_name">
+                            Iphone 12 Pro Max
+                          </h4>
+                          <div className="product-item_price">30.000.000đ</div>
+                          <div className="product-item_action">
+                            <span className="product-item_like">
+                              <i className="far fa-heart" />
+                            </span>
+                            <div className="product-item_rating">
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="fas fa-star" />
+                            </div>
+                            <span className="product-item_sold">50 đã bán</span>
+                          </div>
+                          <div className="product-item_origin">
+                            <span className="product-item_brand">Apple</span>
+                            <span className="product-item_place">Hà Nội</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="grid__column-2-4">
+                        <a className="product-item" href="#">
+                          <div
+                            className="product-item_img"
+                            style={{
+                              backgroundImage:
+                                "url(/public/Product/Thietbidientu/iphone6.jpg)",
+                            }}
+                          />
+                          <h4 className="product-item_name">
+                            Iphone 12 Pro Max
+                          </h4>
+                          <div className="product-item_price">30.000.000đ</div>
+                          <div className="product-item_action">
+                            <span className="product-item_like">
+                              <i className="far fa-heart" />
+                            </span>
+                            <div className="product-item_rating">
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="fas fa-star" />
+                            </div>
+                            <span className="product-item_sold">50 đã bán</span>
+                          </div>
+                          <div className="product-item_origin">
+                            <span className="product-item_brand">Apple</span>
+                            <span className="product-item_place">Hà Nội</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="grid__column-2-4">
+                        <a className="product-item" href="#">
+                          <div
+                            className="product-item_img"
+                            style={{
+                              backgroundImage:
+                                "url(/public/Product/Thietbidientu/iphone6.jpg)",
+                            }}
+                          />
+                          <h4 className="product-item_name">
+                            Iphone 12 Pro Max
+                          </h4>
+                          <div className="product-item_price">30.000.000đ</div>
+                          <div className="product-item_action">
+                            <span className="product-item_like">
+                              <i className="far fa-heart" />
+                            </span>
+                            <div className="product-item_rating">
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="product-item_star-gold fas fa-star" />
+                              <i className="fas fa-star" />
+                            </div>
+                            <span className="product-item_sold">50 đã bán</span>
+                          </div>
+                          <div className="product-item_origin">
+                            <span className="product-item_brand">Apple</span>
+                            <span className="product-item_place">Hà Nội</span>
+                          </div>
+                        </a>
+                      </div>
                       <div className="grid__column-2-4">
                         <a className="product-item" href="#">
                           <div
